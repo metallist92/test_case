@@ -9,3 +9,5 @@ curl --request GET \
   --header 'Authorization: Bearer 1cc53254c9b7b8af6ef9167b84ee44f34ae21dba'
   
 В базе единственный пользователь admin с токеном, указанным выше в запросе
+
+Для создания нового пользователя можно запустить скрипт: python manage.py create_user
