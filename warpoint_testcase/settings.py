@@ -139,5 +139,3 @@ REST_FRAMEWORK = {
         'anon': '60/minute',
     }
 }
-
-UNAUTHORIZED_REQUEST_LIMIT = 60

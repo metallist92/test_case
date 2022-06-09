@@ -3,5 +3,5 @@ from .views import TestCaseView
 
 
 urlpatterns = [
-    path('test_case', TestCaseView.as_view())
+    path('', TestCaseView.as_view())
 ]
